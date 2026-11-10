@@ -1,0 +1,45 @@
+[
+  {
+    "key": "hero",
+    "source": "Hi3D_风格化3D少年角色_allparts_20261104_063449.glb",
+    "before": 1018534,
+    "after": 49753
+  },
+  {
+    "key": "slime",
+    "source": "Hi3D_风格化3D蓝色愤怒史莱姆模型_allparts_20261104_063433.glb",
+    "before": 1014629,
+    "after": 29979
+  },
+  {
+    "key": "sword",
+    "source": "Hi3D_风格化中世纪短剑3D模型_allparts_20261104_063446.glb",
+    "before": 1024589,
+    "after": 18224
+  },
+  {
+    "key": "village",
+    "source": "Hi3D_风格化幻想浮空村落门户3D模型_allparts_20261104_063424.glb",
+    "before": 1072955,
+    "after": 183524
+  },
+  {
+    "key": "altar",
+    "source": "Hi3D_风格化幻想水晶石祭坛_allparts_20261104_080906.glb",
+    "before": 1017514,
+    "after": 67629,
+    "height_m": 2.2,
+    "width_m": 2.810607222928865,
+    "faces": 99999
+  },
+  {
+    "key": "merchant",
+    "source": "Hi3D_风格化老年商人3D角色_allparts_20261104_121143.glb",
+    "before": 1027545,
+    "after": 22226,
+    "faces": 44999,
+    "height_m": 1.96,
+    "bones": 14,
+    "idle_seconds": 16
+  }
+]

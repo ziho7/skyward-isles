@@ -1,0 +1,20 @@
+{
+  "bones": 21,
+  "hero_vertices": 49753,
+  "actions": {
+    "Idle": 2.5,
+    "BattleIdle": 0.8,
+    "Walk": 1.3333333333333333,
+    "Run": 0.9333333333333333,
+    "Sprint": 0.6666666666666666,
+    "Slash_1": 0.8666666666666667,
+    "Slash_2": 0.9666666666666667,
+    "Slash_3": 1.4333333333333333,
+    "Spin": 1.2333333333333334,
+    "Dodge": 0.8,
+    "Hurt": 0.3333333333333333,
+    "Celebrate": 2.933333333333333
+  },
+  "source": "Hi3D 少年 / Quaternius UAL 1 & 2 CC0",
+  "animation_revision": 2
+}

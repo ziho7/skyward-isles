@@ -1,0 +1,10 @@
+import {NodeIO} from '@gltf-transform/core';
+import {dedup,weld,simplify,prune,textureCompress} from '@gltf-transform/functions';
+import {MeshoptSimplifier} from 'meshoptimizer';
+import sharp from 'sharp';
+import {fileURLToPath} from 'node:url';
+const file=fileURLToPath(new URL('../../assets/models/island-distant.glb',import.meta.url));
+await MeshoptSimplifier.ready;
+const io=new NodeIO();const doc=await io.read(file);
+await doc.transform(dedup(),weld(),simplify({simplifier:MeshoptSimplifier,ratio:.16,error:.004}),prune(),textureCompress({encoder:sharp,targetFormat:'jpeg',resize:[1024,1024],quality:85}));
+await io.write(file,doc);console.log('DISTANT_OPTIMIZED');

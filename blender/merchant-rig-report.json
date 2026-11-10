@@ -1,0 +1,11 @@
+{
+  "source": "Hi3D_风格化老年商人3D角色_allparts_20261104_121143.glb",
+  "source_sha256": "dcc6a37d9b774677da2864dd94d9d3fb6e52dcee55d060a0a35274bd134b925c",
+  "original_triangles": 2000000,
+  "game_triangles": 44999,
+  "vertices": 22226,
+  "height_m": 1.96,
+  "bones": 14,
+  "idle_seconds": 16,
+  "stationary_lower_body": true
+}

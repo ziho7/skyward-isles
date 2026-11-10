@@ -1,0 +1,19 @@
+.godot/
+.DS_Store
+*.blend1
+*.blend2
+*.import
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+.env
+.env.*
+!.env.example
+captures/*
+!captures/.gdignore
+dist/
+*.log
+# Godot extracts these from the self-contained GLBs during import.
+assets/models/*.jpg
+assets/models/*.png
